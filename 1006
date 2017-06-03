@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	float a;
+	scanf("%f\n",&a);
+	float b;
+	scanf("%f\n",&b);
+	float c;
+	scanf("%f\n",&c);
+	float MEDIA;
+	MEDIA=(a*2+b*3+c*5)/(2+3+5);
+	printf("MEDIA = %.1f\n",MEDIA);
+	
+	return 0;
+}
