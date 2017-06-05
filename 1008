@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	int num;
+	scanf ("%d\n",&num);
+	printf("NUMBER = %d\n",num);
+	int hours;
+	scanf("%d\n",&hours);
+	float amount;
+	scanf ("%f\n",&amount);
+    float SALARY ;
+	SALARY= hours * amount;
+	printf("SALARY = U$ %.2f\n",SALARY);
+	return 0;
+}
