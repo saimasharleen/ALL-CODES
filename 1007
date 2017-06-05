@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int A;
+	scanf ("%d\n",&A);
+	int B;
+	scanf("%d\n",&B);
+	int C;
+	scanf ("%d\n",&C);
+	int D;
+	scanf("%d\n",&D);
+	int DIFERENCA;
+	DIFERENCA=A * B - C * D;
+	printf("DIFERENCA = %d\n",DIFERENCA);
+	return 0;
+}
